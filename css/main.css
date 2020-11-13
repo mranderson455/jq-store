@@ -1,0 +1,23 @@
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.shop-card {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.shop-card p {
+    color: white;
+}
